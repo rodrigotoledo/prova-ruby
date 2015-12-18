@@ -1,0 +1,8 @@
+*.rbc
+capybara-*.html
+.rspec
+/log/*.txt
+/coverage/
+
+
+# these should all be checked in to normalise the environment:
