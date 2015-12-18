@@ -2,6 +2,7 @@
 
 ## Pré-requisitos
 
+- Faça o FORK do projeto
 - Banco de dados postgresql
   - Criar uma tabela chamada cars com as colunas id (serial), car_number (varchar), license_plate(varchar), registration_date(data)
 - RVM
