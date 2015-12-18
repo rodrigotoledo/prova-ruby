@@ -17,36 +17,38 @@ Regras:
 - Não podem existir dois carros com a mesma placa ou chassi. Encontrando duplicatas deve manter data mais atual.
 - Os testes serão levados em consideração como pontos positivos.
 
-1. Instale a versão 2.2.2 usando rvm
+1 - Instale a versão 2.2.2 usando rvm
 
+```
 rvm install 2.2.2
+```
 
-2. Baixe o projeto e entre na pasta para criar a gemset automaticamente
+2 - Baixe o projeto e entre na pasta para criar a gemset automaticamente
 
 ```
 git clone
 cd prova-ruby
 ```
 
-3. Instale o bundler
+3 - Instale o bundler
 
 ```
 gem install bundler
 ```
 
-4. Instale faça o setup das gems do projeto
+4 - Instale faça o setup das gems do projeto
 
 ```
 bundle
 ```
 
-5. Para executar os testes execute
+5 - Para executar os testes execute
 
 ```
 bundle exec rspec
 ```
 
-6. Organização do projeto
+6 - Organização do projeto
 
 - config
   - Configuração do banco de dados
@@ -61,13 +63,13 @@ bundle exec rspec
 - spec
   - Testes
 
-7. Rode a importação
+7 - Rode a importação
 
 ```
 ruby import.rb
 ```
 
-8. Extras
+8 - Extras
 
 - A classe Log é auxiliar ao projeto e pode ajudar a entender o que está acontecendo no decorrer do código.
 - Use mocha ou outra gem para simular dados. Não há necessidade de criar um banco de testes.
