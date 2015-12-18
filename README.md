@@ -26,7 +26,7 @@ rvm install 2.2.2
 2 - Baixe o projeto e entre na pasta para criar a gemset automaticamente
 
 ```
-git clone
+git clone https://github.com/rodrigotoledo/prova-ruby.git
 cd prova-ruby
 ```
 
