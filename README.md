@@ -13,8 +13,9 @@ Este projeto é algo que um desenvolvedor pode encontrar em seu dia a dia e exem
 
 Deverá então criar uma aplicação que consiga ler um arquivo csv relativamente grande e importar para a tabela cars. A estrutura da tabela representa o chassi (car_number), placa (license_plate) e data do emplacamento (registration_date)
 Regras:
-  - Não podem existir dois carros com a mesma placa ou chassi. Encontrando duplicatas deve manter data mais atual.
-  - Os testes serão levados em consideração como pontos positivos.
+
+- Não podem existir dois carros com a mesma placa ou chassi. Encontrando duplicatas deve manter data mais atual.
+- Os testes serão levados em consideração como pontos positivos.
 
 1. Instale a versão 2.2.2 usando rvm
 
